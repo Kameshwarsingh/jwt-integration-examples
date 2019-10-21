@@ -23,5 +23,5 @@ This example uses Spring-boot to create standalone http web-application and REST
 7) If you try to access Resource-Server (REST API) without valid access-token(jwt), then Resource-Server will return http-error 401 (UnAuthorized).
 
 ## References
-https://openid.net/connect/
-https://developer.okta.com/docs/
+1. https://openid.net/connect/
+2. https://developer.okta.com/docs/
