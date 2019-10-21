@@ -10,7 +10,7 @@ This example uses Spring-boot to create standalone http web-application and REST
 
 ### Modules and responsibilities
 1.	resource-server-api: This module renders data, acts as a data provider. All its APIs are secured and can be accessed only if valid jwt/access-token is presented.
-2.	client-web-application: This module acts as client-facing Web-Application. It intercepts user call, redirects to Okta for authentication, interacts with Okta to exchange authorization-token for access-token, and makes call to "Resource-Server" for data.
+2.	client-web-application: This module acts as client-facing Web-Application. It intercepts user call, redirects to Okta for authentication, interacts with Okta to exchange authorization-token for access-token, and makes call to Resource-Server for data.
 
 
 ## Integration Flow
