@@ -49,9 +49,9 @@ public class CallbackController {
 
 	
 	private String getAccessToken(String authcode) {
-		String clientId = "0oa1m2o3wch1iE7DJ357";
-		String clientSecret = "NaPuq0JIXqJJXaFB5-vtdEoIGinysZeTiQWjocr_";
-		String domain = "dev-776359.okta.com";
+		String clientId = "CLIENT-ID";
+		String clientSecret = "CLIEN-SECRET";
+		String domain = "YOUR-DOMAIN";
 		String redirect_url = "http://localhost:8080/authorization-code/callback";
 		String grant_type = "authorization_code";
 		String scope = "openid";
