@@ -6,7 +6,7 @@ Idea of this sample program is to illustrated jwt integration. It uses authoriza
 This example uses Spring-boot to create standalone http web-application and REST Api.
 
 1. Spring-boot: 	Used for creating stand-alone, spring-boot based application
-2. Okat :  We will use Okta as Authorization server. Okat will Authenticate user, Provision access-token (JWT) and will Authorize access (validate jwt token) when one ties to access data/API on resource server.
+2. Okat :  We will use Okta as Authorization server. Okat will Authenticate user, Provision access-token (JWT) and will Authorize access (validate jwt token) to Resource-Server.
 
 ### Modules and responsibilities
 1.	resource-server-api: This module renders data, acts as a data provider. All its APIs are secured and can be accessed only if valid jwt/access-token is presented.
