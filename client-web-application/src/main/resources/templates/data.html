@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<br><br><br>
+
+<p align="center"> <strong>This data is fetched from resource server.</strong></p>
+      <p style="font-weight: bold;" align="center" th:text="'Data received from resource server [ ' + ${data} + ' ]'" />
+</body>
+<br><br>
+<p align="center"><strong>Please note:</strong></p> 
+<p align="center">If you call resource server directly, without access token, you will get http-error code 401 (not authorized).</p>
+<p align="center">You can call resource-server directly using curl/browser, URL : <strong>http://localhost:8000/data/users</strong></p>
+
+</html>

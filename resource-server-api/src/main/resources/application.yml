@@ -1,0 +1,11 @@
+server:
+  port: 8000
+
+spring:
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
+
+okta:  
+  oauth2: 
+    issuer: https://dev-776359.okta.com/oauth2/default  
