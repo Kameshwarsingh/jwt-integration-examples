@@ -21,3 +21,7 @@ This example uses Spring-boot to create standalone http web-application and REST
 5) Web-Application sets access-token in browser's cookie ( accessible only over http/s), so that it can not be read by jscript.
 6) Web-Application presents valid access-token to resource-server, and gets data from Resource-Server (REST API).
 7) If you try to access Resource-Server (REST API) without valid access-token(jwt), then Resource-Server will return http-error 401 (UnAuthorized).
+
+## References
+https://openid.net/connect/
+https://developer.okta.com/docs/
