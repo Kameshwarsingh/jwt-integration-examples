@@ -1,6 +1,6 @@
 ## JWT Integration example
-Idea of this sample program is to illustrated jwt integration.
-We will use authorization-code grant-type. This sample java/maven code is to illustrate JWT flow, this code must be used only as an example. Although for illustration purpose this example uses HTTP (and localhost as domain), in real world you must use HTTPS, else token/s will be easily stolen while in transit.
+Idea of this sample program is to illustrated jwt integration. It uses authorization-code grant-type. This sample java/maven code is to illustrate jwt integration flow, code must be used only as an example. 
+  Although for illustration purpose this example uses HTTP (localhost as domain), in real world you must use HTTPS, else token will be easily stolen while in transit.
 
 ## Dependencies
 This example uses Spring-boot to create standalone http web-application and REST Api.
