@@ -13,7 +13,7 @@ This example uses Spring-boot to create standalone http web-application and REST
 2.	client-web-application: This module acts as client-interface over browser. It intercets user call, redirects to Okta for authentication, exchanges authorization token for access-token, and makes call to "resoruce-server-api" module for data.
 
 
-## Flow
+## Integration Flow
 1) User access application using browser
 2) If User is not yet authroized, then user is redirected to Okat login page. User Authenticates by providing credentials (user-id and password).
 3) Web-Application gets authorization-code from Okta
