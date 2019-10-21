@@ -50,7 +50,7 @@ public class CallbackController {
 	
 	private String getAccessToken(String authcode) {
 		String clientId = "CLIENT-ID";
-		String clientSecret = "CLIEN-SECRET";
+		String clientSecret = "CLIENT-SECRET";
 		String domain = "YOUR-DOMAIN";
 		String redirect_url = "http://localhost:8080/authorization-code/callback";
 		String grant_type = "authorization_code";
